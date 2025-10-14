@@ -1,0 +1,32 @@
+{
+    "api": {
+        "base_url": "https://fantasy.premierleague.com/api/bootstrap-static/",
+        "timeout": 10,
+        "retry_attempts": 3
+    },
+    "gui": {
+        "window_width": 1200,
+        "window_height": 800,
+        "theme": "dark",
+        "refresh_interval": 300
+    },
+    "team_selection": {
+        "default_budget": 100.0,
+        "formations": [
+            [2, 5, 5, 3],
+            [2, 5, 4, 4],
+            [2, 4, 5, 4]
+        ],
+        "weights": {
+            "total_points": 0.4,
+            "form": 0.4,
+            "ownership": 0.2
+        }
+    },
+    "filters": {
+        "exclude_injured": true,
+        "exclude_suspended": true,
+        "min_minutes": 0,
+        "max_players_per_team": 3
+    }
+}
